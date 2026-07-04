@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.dzungphung.smarthome.proto;
+
+option java_multiple_files = true;
+option java_package = "com.dzungphung.smarthome.proto";
+option optimize_for = LITE_RUNTIME;
+
+message DeviceState {
+  string id = 1;
+  int32 temperature = 2;
+  bool is_on = 3;
+}
+
+message DeviceCommand {
+  string id = 1;
+  bool turn_on = 2;
+}
