@@ -9,7 +9,7 @@ activityCompose = "1.13.0"
 kotlin = "2.2.10"
 composeBom = "2026.02.01"
 protobuf = "4.31.1"
-protobufPlugin = "0.9.5"
+protobufPlugin = "0.9.6"
 coroutines = "1.10.1"
 
 [libraries]
